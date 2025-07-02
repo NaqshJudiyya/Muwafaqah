@@ -1,0 +1,212 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    direction: rtl;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input[type="number"], input[type="text"] {
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.error {
+    color: #e74c3c;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* أنماط النتائج */
+.results-section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border: 2px solid #e9ecef;
+}
+
+.search-info {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.count-badge {
+    background-color: #27ae60;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.combination {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.combination-content {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.name-part {
+    color: #27ae60;
+    margin: 0 5px;
+}
+
+.value-part {
+    color: #e74c3c;
+}
+
+.equals {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.no-results {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 18px;
+    padding: 40px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+/* أنماط قائمة الأسماء */
+.names-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.name-item {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #bdc3c7;
+}
+
+.name-arabic {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.name-value {
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+/* أنماط قسم حساب الجمل */
+.gematria-section {
+    background-color: #e8f5e8;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 2px solid #27ae60;
+}
+
+.gematria-section h2 {
+    color: #27ae60;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gematria-result {
+    background-color: #27ae60;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gematria-breakdown {
+    background-color: white;
+    border: 2px solid #27ae60;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.breakdown-title {
+    color: #27ae60;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.breakdown-item {
+    display: inline-block;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.breakdown-char {
+    color: #2c3e50;
+}
+
+.breakdown-value {
+    color: #e74c3c;
+}

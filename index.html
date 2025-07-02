@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حساب ذِكر الموافَقة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 حساب ذِكر الموافَقة</h1>
+
+        <!-- قسم حساب الجمل -->
+        <div class="gematria-section">
+            <h2>🧮 حساب الجمل للأسماء</h2>
+            <div class="search-form">
+                <label for="gematria_text">أدخل الاسم لحساب قيمة الجمل والبحث في النتائج:</label>
+                <br>
+                <input type="text" id="gematria_text" placeholder="مثال: محمد">
+                <br>
+                <button onclick="calculateGematria()">🧮 احسب الجمل وابحث في النتائج</button>
+            </div>
+        </div>
+
+        <!-- قسم البحث في التركيبات -->
+        <div class="search-form">
+            <label for="target">أدخل الرقم المطلوب:</label>
+            <br>
+            <input type="number" id="target" min="1" placeholder="مثال: 284">
+            <br>
+            <button onclick="searchCombinations()">🔍 بحث في النتائج</button>
+        </div>
+
+        <div id="error" class="error" style="display: none;"></div>
+
+        <!-- عرض نتائج حساب الجمل -->
+        <div id="gematria-result" class="gematria-result" style="display: none;"></div>
+        <div id="gematria-breakdown" class="gematria-breakdown" style="display: none;"></div>
+
+        <!-- عرض نتائج البحث -->
+        <div id="results-section" style="display: none;">
+            <h2>✨ نتائج البحث</h2>
+            <div id="search-info" class="search-info"></div>
+            <div id="combinations-list"></div>
+        </div>
+
+        <h2>📋 جميع الأسماء الحسنى مع القيم العددية:</h2>
+        <div id="names-grid" class="names-grid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
